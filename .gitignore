@@ -1,0 +1,82 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Файлы окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Логи
+logs
+*.log
+
+# Кэш npm
+.npm
+
+# Кэш yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Директории сборки
+dist/
+build/
+out/
+
+# Vite специфичные файлы
+.vite/
+dist-ssr/
+
+# Временные файлы
+*.tmp
+*.temp
+.cache/
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Файлы тестирования
+coverage/
+.nyc_output/
+.coverage/
+
+# Файлы GraphQL Playground (если используете)
+.graphqlconfig
+
+# Файлы TypeScript (если планируете использовать)
+*.tsbuildinfo
+
+# Файлы ESLint
+.eslintcache
+
+# Файлы Prettier
+.prettierignore
+
+# Локальные файлы разработки
+.local
